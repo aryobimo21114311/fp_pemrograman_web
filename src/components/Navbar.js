@@ -41,8 +41,8 @@ export default function Navbar() {
             </ul>
         </div>
         <div className="navbar-end gap-5">
-            <Link href="/login" className='btn text-2xl font-normal rounded-[34px] border-black'>Masuk</Link>
-            <a className="btn text-2xl font-normal rounded-[34px] bg-[#0C4C4C] text-white">Daftar</a>
+            <button className="btn bg-[#E3F4F4] border-black w-[123px] hover:bg-[#5c9f9f] h-[41px] rounded-3xl">Masuk</button>
+            <button className="btn bg-[#0C4C4C] text-white hover:bg-[#5c9f9f] w-[123px] h-[41px] rounded-3xl">Daftar</button>
         </div>
     </div>
   )
