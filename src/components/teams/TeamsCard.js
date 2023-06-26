@@ -13,7 +13,7 @@ export default function TeamsCard({name, nim}) {
         <div className="card-body">
             <h2 className="card-title">{name}</h2>
             <h2 className="card-title">{nim}</h2>
-            <p>Click the button to watch on Jetflix app.</p>
+            <p></p>
         </div>
     </div>
   )
