@@ -3,8 +3,8 @@ import { Player, Controls } from '@lottiefiles/react-lottie-player';
 
 export default function Hero() {
   return (
-    <div className="hero min-h-[87vh] bg-[#E3F4F4] flex p-8">
-        <div className="hero-content">
+    <div className="hero min-h-[87vh] bg-[#E3F4F4] flex p-8 flex justify-center">
+        <div className="hero-content flex lg:flex-row flex-col-reverse">
             <div>
             <h1 className="text-[52px] font-extrabold">Perpendek link<br/> dengan sekali klik !</h1>
             <p className="py-6 text-2xl font-light">Deskripsi singkat mengenai short link uhuy</p>
@@ -17,7 +17,7 @@ export default function Hero() {
             </div>
             <button className="btn bg-[#0C4C4C] text-white w-[153px] h-[59px] hover:bg-[#5c9f9f]">Potong !</button>   
             </div>
-            <div className="ml-36">
+            <div className="">
               <Player
                 autoplay
                 loop
