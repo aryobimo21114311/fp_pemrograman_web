@@ -3,7 +3,7 @@ import React from 'react'
 import pp from '/public/assets/pp.jpg';
 
 export default function Navdashboard() {
-return (
+  return (
     <div className="navbar bg-base-100 mr-9 items-start mt-3 border-b-[1px] border-base-300 h-[68px]">
         <div className="flex-1 dropdown">
             <label tabIndex={0} className="btn btn-ghost btn-circle">

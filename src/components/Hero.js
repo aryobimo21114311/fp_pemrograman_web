@@ -3,7 +3,7 @@ import { Player, Controls } from '@lottiefiles/react-lottie-player';
 
 export default function Hero() {
   return (
-    <div className="hero min-h-[87vh] bg-[#E3F4F4] flex p-8 flex justify-center">
+    <div className="hero min-h-[87vh] bg-[#E3F4F4] p-8 flex justify-center">
         <div className="hero-content flex lg:flex-row flex-col-reverse">
             <div>
             <h1 className="text-[52px] font-extrabold">Perpendek link<br/> dengan sekali klik !</h1>

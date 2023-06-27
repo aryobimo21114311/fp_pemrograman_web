@@ -18,7 +18,7 @@ export default function About() {
         {/* <div className='flex lg:gap-44 gap-6'>
             <Card/>
         </div> */}
-            <Swiper
+            <Swiper 
               modules={[Navigation, Pagination, Scrollbar, A11y]}
               spaceBetween={20}
               slidesPerView={1}
@@ -33,7 +33,7 @@ export default function About() {
                       <div className="card w-96 p-5 glass flex justify-center items-center">
                         <div className="card-body">
                           <h2 className="card-title">Membuat link pendek dengan sekali klik.</h2>
-                          <p> Dapatkan link pendek sesuka kalian hanya dengan satu   kali klik saja.</p>
+                          <p> Dapatkan link pendek sesuka kalian hanya dengan satu kali klik saja.</p>
                           <div className="card-actions justify-end">
                           </div>
                         </div>
@@ -53,7 +53,7 @@ export default function About() {
                       <div className="card max-w-96 p-5 glass justify-center items-center ">
                         <div className="card-body">
                           <h2 className="card-title">Melindungi link asli.</h2>
-                          <p> Melindungi asli dari pemblokiran sebuah sistem yang dianggap spam.</p>
+                          <p> Melindungi asli dari pemblokiran sebuah sistem yang dianggap spam.</p>
                           <div className="card-actions justify-end">
                           </div>
                         </div>
