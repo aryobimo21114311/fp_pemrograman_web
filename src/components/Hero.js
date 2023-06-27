@@ -6,8 +6,8 @@ export default function Hero() {
     <div className="hero min-h-[87vh] bg-[#E3F4F4] p-8 flex justify-center">
         <div className="hero-content flex lg:flex-row flex-col-reverse">
             <div>
-            <h1 className="text-[52px] font-extrabold">Perpendek link<br/> dengan sekali klik !</h1>
-            <p className="py-6 text-2xl font-light">Deskripsi singkat mengenai short link uhuy</p>
+            <h1 className="text-[52px] font-extrabold text-neutral-900">Perpendek link<br/> dengan sekali klik !</h1>
+            <p className="py-6 text-2xl font-light text-neutral-700">Deskripsi singkat mengenai short link uhuy</p>
             <div className="alert alert-info bg-[#E3F4F4] border-black flex justify-center mb-8 w-[450px]">
               <span>Masukkan link panjangmu</span>
             </div>

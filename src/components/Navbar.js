@@ -24,7 +24,7 @@ export default function Navbar() {
                     <li><a>Kontak</a></li>
                 </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-2xl font-bold">LinkMate</a>
+                <a className="btn btn-ghost normal-case text-2xl font-bold text-neutral-700">LinkMate</a>
             </div>
             <div className=" hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 gap-10 text-2xl">
