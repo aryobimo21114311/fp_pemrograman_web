@@ -3,7 +3,7 @@ import React from 'react'
 export default function page() {
   return (
     <div className='bg-white w-[100vw] h-[100vh] flex justify-center items-center'>
-      <div className="card bg-[#E3F4F4] shadow-2xl shadow-[#E3F4F4] w-[540px] h-[646px] rounded-[53px]">
+      <div className="card bg-[#E3F4F4] shadow-2xl shadow-[#E3F4F4] w-[540px] h-[580px] rounded-[53px]">
         <div className="card-body flex flex-col items-center">
           <h2 className="card-title my-8">LinkMate</h2>
           <input type="text" placeholder="Nama Pengguna" className="input input-bordered w-full max-w-xs mb-5" />

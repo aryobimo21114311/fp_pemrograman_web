@@ -1,15 +1,15 @@
 import React from 'react'
-import Navdashboard from './Navdashboard'
+import Navlist from './Navlist'
 import Sidebar from './Sidebar'
-import DashSection from './DashSection'
+import ListSection from './ListSection'
 
-export default function Dashboard() {
+export default function List() {
   return (
     <div className='flex w-[100vw] h-[100vh]'>
         <Sidebar/>
         <div className='w-full h-full'>
-            <Navdashboard/>
-            <DashSection/>
+            <Navlist/>
+            <ListSection/>
         </div>
     </div>
   )

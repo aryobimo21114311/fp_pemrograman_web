@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import logout from '/public/assets/logout.svg';
 
-export default function Navdashboard() {
+export default function Navlist() {
   return (
     <div className="navbar bg-base-100 mr-9 items-start mt-3 border-b-[1px] border-base-300 h-[68px]">
         <div className="flex-1 dropdown">
