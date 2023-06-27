@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 export default function About() {
   return (
-      <div className='min-h-screen bg-gradient-to-t from-[#0C4C4C] to-[#E9F5F5] items-center flex-col'>
+      <div className='min-h-screen bg-gradient-to-t from-[#0C4C4C] to-[#E3F4F4] items-center flex-col'>
         <div className='flex flex-col items-center'>
             <h1 className='mb-20 mt-20 font-extrabold text-3xl'>Tentang LinkMate</h1>
             <p className='mb-24 text-center font-light text-2xl'>LinkMate adalah salah satu aplikasi shortlink yang<br/> ditujukan kepada para pengguna untuk<br/> memudahkan memperpendek link agar mudah<br/> untuk diingat atau mudah untuk dicari. </p>
