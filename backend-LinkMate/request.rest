@@ -1,0 +1,48 @@
+GET http://localhost:8080/api/auth/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoxLCJpYXQiOjE2ODgwNTI0NjUsImV4cCI6MTY4ODA1MjQ5NX0.P4T_8ocnXVI3czKbu2fyEMzM0F4b_WhAqpRtKIPTFgs
+###
+
+###
+GET http://localhost:8080/api/auth/linkProfile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoxLCJpYXQiOjE2ODgwOTI4OTQsImV4cCI6MTY4ODA5MjkyNH0.JoRKP87T8N-OpUaT5B7V0K7t1I4a0ryxjNggDGziRgk
+
+###
+POST http://localhost:8080/api/auth/signin
+Content-Type: application/json
+
+{
+    "username": "kevin",
+    "password": "kevin1"
+}
+
+###
+ 
+POST http://localhost:8080/api/auth/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJ1c2VybmFtZSI6ImtldmluIiwiZW1haWwiOiJrZXZpbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQwOCR2WERtaGtCY0NUQXdaVXhGYkdUa0plLlhaRTIzWkxBWDlGM0RWdFF2SGVPWXU0cWVkQ3BudSIsInBob25lX251bWJlciI6IjYyODEzMjEzMTQxMiIsImNyZWF0ZWRBdCI6IjIwMjMtMDYtMjlUMTU6MDY6MjkuMDAwWiIsInVwZGF0ZWRBdCI6IjIwMjMtMDYtMjlUMTU6MDY6MjkuMDAwWiJ9LCJpYXQiOjE2ODgwNTIxMTUsImV4cCI6MTY4ODEzODUxNX0.xlv2tL9vREOqC1HmZ6R5yF-94p0t76ZzDL0xb_Xz96M"
+}
+
+###
+POST http://localhost:8080/api/auth/signup
+Content-Type: application/json
+
+{
+    
+    "username": "kevin",
+    "email": "kevin@gmail.com",
+    "password": "kevin1",
+    "phone_number": "628132131412"
+
+}
+
+###
+
+GET http://localhost:8080/api/auth/token
+
+###
+GET http://localhost:8080/
+
+###
+DELETE http://localhost:8080/api/auth/logout
