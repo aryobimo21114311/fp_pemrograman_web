@@ -1,14 +1,15 @@
 const router = require("express").Router();
 const authController = require("../auth/auth");
 
-router.get("/signup", authController.signUpPage);
 router.post("/signup", authController.signup);
 
-router.get("/signin", authController.signInPage);
 router.post("/signin", authController.signIn);
 
 router.get("/profile", authController.profile);
 router.get("/linkProfile", authController.linkProfile);
+
+router.post("/create-short", authController.createShortLink);
+router.get("/linkmate/:url_short", authController.redirectUrl);
 
 router.delete("/logout", authController.logout);
 

@@ -2,7 +2,7 @@ import React from 'react'
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 
 export default function Hero() {
-  //for loop
+  //for loop & if(di baris 25)
   return (
     <div className="hero min-h-[87vh] bg-[#E3F4F4] p-8 flex justify-center">
         <div className="hero-content flex lg:flex-row flex-col-reverse">
@@ -22,8 +22,7 @@ export default function Hero() {
             <button className="btn bg-[#0C4C4C] text-white w-[153px] h-[59px] hover:bg-[#5c9f9f]">Potong !</button>   
             </div>
             <div className="">
-              <div > //if
-
+              <div > 
               <Player
                 autoplay
                 loop

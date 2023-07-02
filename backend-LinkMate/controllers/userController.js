@@ -1,4 +1,5 @@
 const db = require("../models");
+const bcryptjs = require("bcryptjs");
 
 const User = db.user;
 const List = db.list;
@@ -7,10 +8,12 @@ const userList = db.userList;
 exports.createUser = async (req, res) => {
     try {
         const { username, email, password, phone_number } = req.body;
+
+        const hashPassword = await bcryptjs.hash(password, 8);
         const user = await User.create({
             username,
             email,
-            password,
+            password: hashPassword,
             phone_number,
         });
 
@@ -83,16 +86,6 @@ exports.deleteUser = async (req, res) => {
         }
 
         await user.destroy();
-
-        // const userListIds = user.lists.map((list) => list.id);
-        // userList.destroy({
-        //     where: {
-        //         id_user: user.id,
-        //         id_list: {
-        //             in: userListIds,
-        //         },
-        //     },
-        // });
 
         res.json({
             msg: "User deleted successfully",

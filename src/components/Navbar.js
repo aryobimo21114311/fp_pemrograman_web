@@ -33,8 +33,8 @@ export default function Navbar() {
                     <details>
                     <summary>Tentang</summary>
                     <ul className="p-2">
-                        <li><a>Submenu 1</a></li>
-                        <li><a>Submenu 2</a></li>
+                        <li><a>Tentang LinkMate</a></li>
+                        <li><a>Tim Kami</a></li>
                     </ul>
                     </details>
                 </li>

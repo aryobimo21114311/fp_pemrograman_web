@@ -1,18 +1,18 @@
 GET http://localhost:8080/api/auth/profile
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoxLCJpYXQiOjE2ODgwNTI0NjUsImV4cCI6MTY4ODA1MjQ5NX0.P4T_8ocnXVI3czKbu2fyEMzM0F4b_WhAqpRtKIPTFgs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoxLCJpYXQiOjE2ODgwOTMwOTgsImV4cCI6MTY4ODA5MzEyOH0.vnZrxpvKfMMPO2J6XKvyJVFP7hprfja74lmSneyNdNs
 ###
 
 ###
 GET http://localhost:8080/api/auth/linkProfile
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoxLCJpYXQiOjE2ODgwOTI4OTQsImV4cCI6MTY4ODA5MjkyNH0.JoRKP87T8N-OpUaT5B7V0K7t1I4a0ryxjNggDGziRgk
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoxLCJpYXQiOjE2ODgwOTMzNjYsImV4cCI6MTY4ODA5MzM5Nn0.iqMUNEnZGRbHpcfybIewL9Z8EDak68gnlJ5pyJ9rx8U
 
 ###
 POST http://localhost:8080/api/auth/signin
 Content-Type: application/json
 
 {
-    "username": "kevin",
-    "password": "kevin1"
+    "username": "aryo",
+    "password": "aryo1"
 }
 
 ###
@@ -30,9 +30,9 @@ Content-Type: application/json
 
 {
     
-    "username": "kevin",
-    "email": "kevin@gmail.com",
-    "password": "kevin1",
+    "username": "aryo",
+    "email": "aryo@gmail.com",
+    "password": "aryo1",
     "phone_number": "628132131412"
 
 }
