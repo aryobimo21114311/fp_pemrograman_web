@@ -5,7 +5,8 @@ import deleteIcon from '/public/assets/deleteIcon.svg'
 
 export default function DashSection() {
   return (
-    <div className="overflow-x-auto mt-10 px-8">
+
+    <div className="overflow-x-auto mt-10 px-8"> 
         <h1 className='font-bold text-2xl mb-8'>Dashboard</h1>
         <table className="table table-zebra">
             <div className='flex'>
@@ -23,8 +24,7 @@ export default function DashSection() {
             <div>
                 <button className="btn bg-[#0C4C4C] text-white w-[153px] h-[59px] hover:bg-[#5c9f9f]">Submit</button>   
             </div>
-        </table>
-        
-    </div>
-  )
+        </table>  
+    </div>
+  )
 }
