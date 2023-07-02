@@ -1,3 +1,5 @@
+'use client'
+import Link from 'next/link'
 import Image from 'next/image'
 import user from '/public/assets/user.svg'
 import dashboard from '/public/assets/dashboard.svg'
@@ -16,11 +18,15 @@ export default function DefaultSidebar() {
             <div className='w-full h-full'>
                 <div className='flex items-center gap-10 hover:bg-[#C4DFDF] p-4 rounded-2xl'>
                     <Image src={dashboard} width={0} height={40} alt="img"/>
-                    <p className='text-xl'>Dashboard</p>
+                    <Link href={'/dashboard'} className="font-medium text-xl">
+                        <button className="lg:btn-lg btn-xs 'flex items-center gap-10 hover:bg-[#C4DFDF] p-4 rounded-2xl'">Dashboard</button>
+                    </Link>
                 </div>
                 <div className='flex items-center gap-10 hover:bg-[#C4DFDF] p-4 rounded-2xl'>
                     <Image src={list} width={0} height={40} alt="img"/>
-                    <p className='text-xl'>List</p>
+                    <Link href={'/list'} className="font-medium text-xl">
+                        <button className="lg:btn-lg btn-xs 'flex items-center gap-10 hover:bg-[#C4DFDF] p-4 rounded-2xl'">List</button>
+                    </Link>
                 </div>
             </div>
         </div>

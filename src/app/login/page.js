@@ -16,9 +16,11 @@ export default function page() {
           </div>
           <div className='flex flex-col items-center'>
             <button className="btn rounded-full border-[0.3px] border-slate-400 bg-transparent w-[70%] h-8 mb-5 hover:bg-white">Masuk</button>
-            <p>Tidak punya akun? <Link href={'/register'} className="font-medium text-base">
+            <p>Tidak punya akun? 
+              <Link href={'/register'} className="font-medium text-base">
               <span className='font-bold underline hover:cursor-pointer'>Daftar</span>
-            </Link></p>
+              </Link>
+            </p>
           </div>
         </div>
       </div>
