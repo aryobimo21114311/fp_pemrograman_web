@@ -47,7 +47,7 @@ const team = [
     text: 'Tugas',
   },
   {
-    imageUrl: '/964-200x200.jpg',
+    imageUrl: '/salmaa.jpg',
     name: 'Mauhiba Salmaa Ghaisani',
     num: '21.11.4264',
     text: 'Tugas',
