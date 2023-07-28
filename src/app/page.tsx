@@ -38,25 +38,25 @@ const team = [
     imageUrl: '/964-200x200.jpg',
     name: 'Annisa Damayati',
     num: '21.11.4260',
-    text: 'Tugas',
+    text: 'Frontrend Dev, PPT',
   },
   {
-    imageUrl: '/964-200x200.jpg',
+    imageUrl: '/Aryo Bimo.jpg',
     name: 'Aryo Bimo Wicaksono',
     num: '21.11.4311',
-    text: 'Tugas',
+    text: 'Backend Dev',
   },
   {
     imageUrl: '/964-200x200.jpg',
     name: 'Mauhiba Salmaa Ghaisani',
     num: '21.11.4264',
-    text: 'Tugas',
+    text: 'Frontend Dev, PPT',
   },
   {
     imageUrl: '/964-200x200.jpg',
     name: 'Ameilia Nurcahyandari Sutomo',
     num: '21.11.4314',
-    text: 'Tugas',
+    text: 'Frontend Dev, PPT, Desain',
   },
 ]
 
@@ -99,7 +99,7 @@ export default async function Home() {
         </section>
         <section
           id="about"
-          className="mt-32 bg-secondary text-secondary-content"
+          className="mt-32 bg-gradient-to-t from-[#0C4C4C] to-[#E3F4F4] text-secondary-content"
         >
           <div className="container prose text-center mx-auto px-4 py-32">
             <h2>Tentang LinkMate</h2>
