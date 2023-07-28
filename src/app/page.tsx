@@ -47,7 +47,7 @@ const team = [
     text: 'Backend',
   },
   {
-    imageUrl: '/salmaa.jpg',
+    imageUrl: '/salm.jpg',
     name: 'Mauhiba Salmaa Ghaisani',
     num: '21.11.4264',
     text: 'Frontend, PPT',
