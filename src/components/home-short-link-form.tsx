@@ -9,6 +9,7 @@ import { useForm } from 'react-hook-form'
 import { toast } from 'react-hot-toast'
 import { BiCopy } from 'react-icons/bi'
 import { CgSpinner } from 'react-icons/cg'
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
 
 type FormData = {
   urlLong: string
@@ -77,7 +78,7 @@ export default function HomeShortLinkForm() {
         <div>
           <article className="prose prose-2xl">
             <h1>Perpendek link dengan sekali klik!</h1>
-            <p>Deskripsi singkat mengenai short link uhuy</p>
+            <p>Permudah mengingat link dengan nama sesuai keinginanmu</p>
           </article>
           <div className="mt-4">
             <form className="flex flex-col gap-4" onSubmit={onSubmit}>
@@ -133,16 +134,22 @@ export default function HomeShortLinkForm() {
           </div>
         </div>
         <div
-          className={`ml-8 card flex-shrink-0 w-full py-24 max-w-sm shadow-2xl ${
+          className={` ${
             mutation.isSuccess
               ? 'bg-success text-success-content shadow-success'
               : mutation.isError
               ? 'bg-error text-error-content shadow-error'
               : ''
+              
           }`}
         >
+          <Player
+                autoplay
+                loop
+                src="https://assets5.lottiefiles.com/packages/lf20_1cazwtnc.json" 
+                style={{ height: '50vh', width: '30vw', }}>
+              </Player>
           <div className="card-body text-center text-3xl">
-            Lottie <br />
             {!mutation.isLoading && mutation.isSuccess && 'Berhasil :)'}
             {!mutation.isLoading && mutation.isError && 'Gagal :('}
           </div>
