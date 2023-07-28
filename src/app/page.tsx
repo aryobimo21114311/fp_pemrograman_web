@@ -35,7 +35,7 @@ const routes = [
 
 const team = [
   {
-    imageUrl: '/964-200x200.jpg',
+    imageUrl: '/nisa.jpg',
     name: 'Annisa Damayati',
     num: '21.11.4260',
     text: 'Frontend, PPT',
