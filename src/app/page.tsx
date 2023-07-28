@@ -38,7 +38,7 @@ const team = [
     imageUrl: '/nisa.jpg',
     name: 'Annisa Damayati',
     num: '21.11.4260',
-    text: 'Frontend, PPT',
+    text: 'Frontend, Desain',
   },
   {
     imageUrl: '/Aryo Bimo.jpg',
@@ -50,7 +50,7 @@ const team = [
     imageUrl: '/salm.jpg',
     name: 'Mauhiba Salmaa Ghaisani',
     num: '21.11.4264',
-    text: 'Frontend, PPT',
+    text: 'Frontend, Desain',
   },
   {
     imageUrl: '/mel.jpg',
