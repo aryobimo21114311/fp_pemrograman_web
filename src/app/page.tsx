@@ -38,25 +38,25 @@ const team = [
     imageUrl: '/964-200x200.jpg',
     name: 'Annisa Damayati',
     num: '21.11.4260',
-    text: 'Frontrend Dev, PPT',
+    text: 'Tugas',
   },
   {
     imageUrl: '/Aryo Bimo.jpg',
     name: 'Aryo Bimo Wicaksono',
     num: '21.11.4311',
-    text: 'Backend Dev',
+    text: 'Tugas',
   },
   {
     imageUrl: '/964-200x200.jpg',
     name: 'Mauhiba Salmaa Ghaisani',
     num: '21.11.4264',
-    text: 'Frontend Dev, PPT',
+    text: 'Tugas',
   },
   {
-    imageUrl: '/964-200x200.jpg',
+    imageUrl: '/amel.jpg',
     name: 'Ameilia Nurcahyandari Sutomo',
     num: '21.11.4314',
-    text: 'Frontend Dev, PPT, Desain',
+    text: 'Tugas',
   },
 ]
 
