@@ -53,7 +53,7 @@ const team = [
     text: 'Frontend, PPT',
   },
   {
-    imageUrl: '/amel.jpg',
+    imageUrl: '/mel.jpg',
     name: 'Ameilia Nurcahyandari Sutomo',
     num: '21.11.4314',
     text: 'Frontend, Desain',
